@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ja" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tony Haber-Matos — 失われた純真：契約</title>
+<meta name="description" content="Tony Haber-Matos著『失われた純真：契約』。現代のHavanaで、3人の男子生徒は盗まれた試験の答えを求めて霊能者に金を払い、その背後にある仕組みを暴いていく。誰が決めるのか。">
+<style>
+  :root{
+    --cream:#FAF6EF;
+    --cream-deep:#F1E9DB;
+    --charcoal:#1A1A1A;
+    --charcoal-soft:#292722;
+    --gold:#C5A253;
+    --gold-light:#E8D9AC;
+    --terracotta:#B85C38;
+    --terracotta-soft:#F3D9CC;
+    --ink-muted:#6D675E;
+    --line:#DCD2BE;
+    --surface:#FFFDF8;
+    --paper:var(--cream);
+    --ink:var(--charcoal);
+    --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+    --sans:'DM Sans',Arial,Helvetica,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:var(--serif);
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.65;
+  }
+  ::selection{background:var(--gold);color:#1A1A1A}
+  a{color:var(--terracotta);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1020px;margin:0 auto;padding:0 22px}
+  .eyebrow{
+    font-family:var(--sans);font-size:11px;font-weight:700;
+    letter-spacing:.24em;text-transform:uppercase;color:var(--terracotta);
+  }
+  .gold-rule{height:2px;width:56px;background:var(--gold)}
+  header.site{
+    position:sticky;top:0;z-index:30;
+    background:rgba(250,246,239,.96);
+    border-bottom:1px solid var(--line);
+  }
+  header.site .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;justify-content:space-between;padding-top:12px;padding-bottom:12px}
+  .brand{font-size:20px;letter-spacing:.08em;text-transform:uppercase;font-weight:bold;color:var(--ink);line-height:1.1}
+  .brand small{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.28em;color:var(--gold);font-weight:400}
+  header.site nav{display:flex;flex-wrap:wrap;gap:4px 18px}
+  header.site nav a{color:var(--ink);font-family:var(--sans);font-size:13px;font-weight:600}
+  header.site nav a:hover{color:var(--terracotta);text-decoration:none}
+  .btn-copy{
+    font-family:var(--sans);font-size:12px;font-weight:700;
+    background:var(--charcoal);color:#fff;border:0;border-radius:999px;
+    padding:9px 16px;cursor:pointer;
+  }
+  .btn-copy:hover{background:var(--terracotta)}
+  .hero{
+    background:linear-gradient(180deg,#2b2320 0%,#1c1a17 100%);
+    color:#f5efe4;
+    padding:56px 0 52px;
+    text-align:center;
+  }
+  .hero .eyebrow{color:var(--gold);letter-spacing:.34em;font-size:12px}
+  .hero .badge{
+    display:inline-block;margin-top:18px;font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.08em;
+    border:1px solid var(--gold);color:var(--terracotta);background:transparent;border-radius:999px;padding:6px 12px;
+  }
+  .hero h1{font-size:46px;line-height:1.08;margin:18px 0 6px;font-weight:bold;letter-spacing:.02em}
+  .hero h1 em{font-style:italic}
+  .hero .byline{font-size:19px;font-style:italic;color:#e8ddc8}
+  .hero .author-line{max-width:640px;margin:18px auto 0;font-family:var(--sans);font-size:17px;line-height:1.55;color:#e8ddc8}
+  .hero .chips{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+  .hero .chip{
+    font-family:var(--sans);font-size:13px;font-weight:600;
+    border-radius:999px;padding:8px 14px;
+  }
+  .hero .chip.solid{background:var(--charcoal-soft);color:#fff}
+  .hero .chip.line{border:1px solid var(--line);color:#f5efe4}
+  .hero .chip.gold{border:1px solid var(--gold);color:var(--gold-light)}
+  .hero .logline{
+    max-width:640px;margin:26px auto 0;font-size:19px;line-height:1.6;color:#f0e9da;font-style:italic;
+  }
+  .hero .question{
+    margin-top:22px;font-size:22px;font-weight:bold;color:var(--gold);letter-spacing:.02em;
+  }
+  .cover{
+    width:220px;margin:34px auto 0;padding:26px 18px 30px;
+    background:#f7ead0;color:#2b2320;
+    border:3px solid var(--gold);
+    box-shadow:0 10px 30px rgba(0,0,0,.45);
+    text-align:center;
+  }
+  .cover .c-eyebrow{font-family:var(--sans);font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--terracotta)}
+  .cover .c-title{font-size:26px;line-height:1.15;font-weight:bold;margin:14px 0 4px}
+  .cover .c-sub{font-size:15px;font-style:italic;color:#5b5348}
+  .cover .c-author{margin-top:18px;font-family:var(--sans);font-size:11px;letter-spacing:.24em;text-transform:uppercase}
+  .buy-row{margin-top:32px;display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+  .btn{
+    display:inline-block;font-family:var(--sans);font-size:14px;font-weight:bold;letter-spacing:.06em;
+    padding:13px 24px;border-radius:4px;text-decoration:none;
+  }
+  .btn:hover{text-decoration:none}
+  .btn-amazon{background:#f7c948;color:#1c1a17}
+  .btn-amazon:hover{background:#ffd95e}
+  .btn-gplay{background:#ffffff;color:#1c1a17}
+  .btn-gplay:hover{background:#f0e9da}
+  .btn-bn{background:transparent;color:#f5efe4;border:2px solid #f5efe4}
+  .btn-bn:hover{border-color:var(--gold);color:var(--gold)}
+  .buy .btn-bn{color:var(--ink);border-color:var(--ink)}
+  .buy .btn-bn:hover{border-color:var(--terracotta);color:var(--terracotta)}
+  .hero .whisper{
+    max-width:640px;margin:34px auto 0;font-size:21px;line-height:1.5;font-style:italic;color:var(--gold-light);
+  }
+  .hero .now{
+    margin-top:22px;font-family:var(--sans);font-size:14px;line-height:1.9;color:#d8cfbc;
+  }
+  .hero .now b{color:#f5efe4}
+  section{padding:56px 0}
+  section + section{border-top:1px solid var(--line)}
+  h2{font-size:32px;line-height:1.15;margin:0 0 6px}
+  .kicker{
+    font-family:var(--sans);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--terracotta);margin-bottom:8px;
+  }
+  .lede{font-size:19px;line-height:1.6}
+  .muted{color:var(--ink-muted)}
+  .story p{font-size:17px}
+  .story blockquote{
+    margin:28px 0;padding:18px 24px;border-left:4px solid var(--gold);
+    background:var(--cream-deep);font-size:19px;font-style:italic;line-height:1.6;
+  }
+  .story blockquote footer{font-size:14px;font-style:normal;color:var(--muted);margin-top:10px}
+  .big-quote{font-size:32px;line-height:1.25;font-weight:500;margin:0}
+  .big-quote em{color:var(--terracotta);font-style:italic}
+  .two-col{display:grid;grid-template-columns:.9fr 1.25fr;gap:40px}
+  .sticky-col{position:sticky;top:90px;align-self:start}
+  .word-chips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
+  .word-chip{
+    border:1px solid var(--line);background:var(--cream);border-radius:14px;
+    padding:14px 8px;text-align:center;font-size:19px;font-style:italic;
+  }
+  .tl{list-style:none;margin:0;padding:0}
+  .tl li{position:relative;padding-left:36px;margin-bottom:30px}
+  .tl li:last-child{margin-bottom:0}
+  .tl li::before{content:'';position:absolute;left:9px;top:10px;bottom:-12px;width:1px;background:var(--line)}
+  .tl li:last-child::before{display:none}
+  .tl .dot{
+    position:absolute;left:0;top:2px;width:19px;height:19px;border-radius:50%;
+    border:2px solid var(--gold);background:var(--cream);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .tl .dot::after{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold)}
+  .tl li:last-child .dot::after{background:var(--terracotta)}
+  .tl .yr{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--terracotta)}
+  .tl h3{margin:4px 0 6px;font-size:23px}
+  .tl p{margin:0;color:var(--ink-muted);line-height:1.6;font-size:16px}
+  .tl-card{
+    background:var(--cream-deep);border-radius:24px;padding:30px;align-self:start;
+  }
+  .tl-card h3{font-size:28px;line-height:1.3;margin:14px 0 10px}
+  .tl-card p{color:var(--ink-muted);line-height:1.6;margin:0}
+  .tl-card .foot{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);font-family:var(--sans);font-size:14px;font-weight:600}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:26px}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:20px 22px;
+  }
+  .card h3{margin:0 0 8px;font-size:18px;color:var(--terracotta)}
+  .card p{margin:0;font-size:15px;line-height:1.55}
+  .card .big{font-size:26px;font-weight:bold;color:var(--ink)}
+  section.dark{background:var(--charcoal);color:#f5efe4}
+  section.dark + section{border-top:1px solid var(--line)}
+  section.dark h2{color:#fff}
+  section.dark .kicker{color:var(--gold)}
+  section.dark .lede{color:rgba(255,255,255,.75)}
+  .book-panel{
+    display:grid;grid-template-columns:.85fr 1.3fr;border:1px solid #3D382F;border-radius:24px;overflow:hidden;margin-top:30px;
+  }
+  .book-cover{
+    background:var(--terracotta);color:#fff;padding:30px;display:flex;flex-direction:column;justify-content:space-between;min-height:380px;
+  }
+  .book-cover .bc-top{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.2em;display:flex;justify-content:space-between}
+  .book-cover .bc-title{font-size:44px;line-height:.95;font-weight:bold;margin:20px 0 0}
+  .book-cover .bc-sub{font-size:22px;font-style:italic;margin-top:12px}
+  .book-cover .bc-foot{border-top:1px solid rgba(255,255,255,.3);padding-top:14px;font-family:var(--sans);font-size:13px;font-weight:600}
+  .book-body{padding:30px 34px;background:#211E1B}
+  .book-body .pub{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+  .book-body h3{font-size:30px;line-height:1.25;margin:12px 0 0}
+  .book-body p{color:rgba(255,255,255,.75);line-height:1.65}
+  .book-body blockquote{
+    margin:24px 0 0;padding-left:18px;border-left:2px solid var(--gold);
+    font-size:22px;line-height:1.45;font-style:italic;color:#fff;
+  }
+  .book-body .ed-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.6);margin:26px 0 10px}
+  .ed-chips{display:flex;flex-wrap:wrap;gap:8px}
+  .ed-chips span{
+    font-family:var(--sans);font-size:12px;font-weight:600;
+    border:1px solid #4B443C;border-radius:999px;padding:6px 12px;color:#f5efe4;
+  }
+  .book-body .stats{
+    margin-top:24px;padding-top:18px;border-top:1px solid #3D382F;
+    font-family:var(--sans);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 26px;color:rgba(255,255,255,.8);
+  }
+  .book-body .stats b{color:#fff}
+  section.dark .card{background:#211E1B;border-color:#3D382F}
+  section.dark .card h3{color:var(--gold)}
+  section.dark .card p{color:rgba(255,255,255,.75)}
+  section.dark .card .big{color:#fff}
+  .brand-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:30px}
+  .brand-card{
+    display:block;width:100%;text-align:left;cursor:pointer;
+    background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px;
+    font-family:var(--serif);color:var(--ink);
+  }
+  .brand-card:hover{transform:translateY(-2px)}
+  .brand-card.active{border-color:var(--terracotta);background:var(--terracotta-soft)}
+  .brand-card .b-tag{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--terracotta)}
+  .brand-card h3{margin:12px 0 6px;font-size:23px}
+  .brand-card p{margin:0;font-size:15px;line-height:1.55;color:var(--ink-muted);font-family:var(--serif)}
+  .phil-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:30px}
+  .phil{
+    background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px;
+  }
+  .phil .num{font-size:32px;color:var(--gold)}
+  .phil h3{font-size:21px;line-height:1.3;margin:14px 0 8px}
+  .phil p{margin:0;font-size:15px;line-height:1.55;color:var(--ink-muted)}
+  .fund{
+    margin-top:22px;background:var(--charcoal);color:#fff;border-radius:24px;padding:30px 34px;
+    display:grid;grid-template-columns:1.4fr .6fr;gap:26px;align-items:center;
+  }
+  .fund h3{font-size:28px;line-height:1.3;margin:10px 0 8px}
+  .fund p{margin:0;color:rgba(255,255,255,.7);line-height:1.6}
+  .fund .give{
+    border:1px solid #44403A;border-radius:14px;padding:18px;
+  }
+  .fund .give b{display:block;font-family:var(--sans);font-size:15px}
+  .fund .give span{font-size:13px;color:rgba(255,255,255,.6)}
+  .sab-panel{
+    display:grid;grid-template-columns:1.15fr .85fr;border-radius:28px;overflow:hidden;margin-top:30px;
+    background:var(--cream-deep);
+  }
+  .sab-left{padding:32px 36px}
+  .sab-left h3{font-size:38px;line-height:1.05;margin:12px 0 0}
+  .sab-left p{color:var(--ink-muted);line-height:1.65;max-width:560px}
+  .flav-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+  .flav-chips span{
+    font-family:var(--sans);font-size:13px;font-weight:600;
+    background:#fff;border-radius:999px;padding:7px 12px;box-shadow:0 1px 3px rgba(0,0,0,.08);
+  }
+  .sab-left .launch{margin-top:24px;font-family:var(--sans);font-size:14px;font-weight:700}
+  .sab-right{
+    background:var(--terracotta);color:#fff;padding:32px 34px;
+    display:flex;flex-direction:column;justify-content:space-between;gap:24px;
+  }
+  .sab-right .q{font-size:28px;line-height:1.3;font-style:italic;margin:0}
+  .sab-right .tag{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+  .sab-right .fine{font-size:12px;line-height:1.6;color:rgba(255,255,255,.85);margin:0}
+  .editions{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .editions li{
+    background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;
+    font-family:var(--sans);font-size:15px;
+  }
+  .editions li b{display:block;font-size:16px;color:var(--ink)}
+  .editions li span{color:var(--muted);font-size:13px}
+  .isbn{font-size:14px;color:var(--muted);margin-top:18px}
+  .buy{background:var(--cream-deep)}
+  .price-table{width:100%;border-collapse:collapse;margin-top:22px;background:#fff}
+  .price-table th,.price-table td{padding:12px 16px;border:1px solid var(--line);text-align:left;font-size:16px}
+  .price-table th{background:var(--ink);color:#f5efe4;font-family:var(--sans);font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+  .price-table td.price{font-weight:bold;white-space:nowrap}
+  .note{font-size:15px;color:var(--muted);margin-top:16px}
+  .contact{text-align:center}
+  .contact address{font-style:normal;font-size:18px;line-height:1.9;margin-top:18px}
+  .contact address b{font-size:20px}
+  .contact .press{margin-top:14px;font-size:15px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;font-family:var(--sans)}
+  footer.site{
+    background:var(--charcoal);color:#cbbfa8;padding:44px 0 30px;
+    font-family:var(--sans);font-size:14px;line-height:1.8;
+  }
+  footer.site .foot-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:34px;padding-bottom:30px;border-bottom:1px solid #3D382F}
+  footer.site .foot-brand{max-width:420px}
+  footer.site .foot-brand .fb-title{font-family:var(--serif);font-size:26px;font-weight:bold;color:#fff}
+  footer.site .foot-brand .fb-title span{color:var(--gold)}
+  footer.site .foot-brand p{color:rgba(255,255,255,.65);margin:12px 0 0}
+  footer.site .btn-gold{
+    display:inline-block;margin-top:20px;background:var(--gold);color:#1A1A1A;border:0;border-radius:999px;
+    font-family:var(--sans);font-size:13px;font-weight:700;padding:10px 18px;cursor:pointer;
+  }
+  footer.site .btn-gold:hover{background:var(--gold-light)}
+  footer.site nav .nav-label{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+  footer.site nav ul{list-style:none;margin:14px 0 0;padding:0}
+  footer.site nav li{margin-bottom:10px}
+  footer.site nav a{color:#f5efe4}
+  footer.site .foot-bottom{
+    padding-top:22px;font-size:12px;line-height:1.7;color:rgba(255,255,255,.55);
+    display:flex;flex-wrap:wrap;gap:6px 26px;justify-content:space-between;
+  }
+  @media (max-width:900px){
+    .two-col{grid-template-columns:1fr}
+    .sticky-col{position:static}
+    .phil-grid{grid-template-columns:repeat(2,1fr)}
+    .book-panel{grid-template-columns:1fr}
+    .book-cover{min-height:0}
+    .sab-panel{grid-template-columns:1fr}
+    .fund{grid-template-columns:1fr}
+  }
+  @media (max-width:600px){
+    .hero h1{font-size:34px}
+    .hero .logline{font-size:17px}
+    .hero .whisper{font-size:18px}
+    section{padding:40px 0}
+    h2{font-size:26px}
+    .big-quote{font-size:26px}
+    .phil-grid{grid-template-columns:1fr}
+    .word-chips{grid-template-columns:1fr 1fr 1fr}
+    .btn-copy{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><span translate="no">Tony Haber-Matos</span><small>著者 &middot; <span translate="no">Casa Santiago</span></small></div>
+    <nav>
+      <a href="#story">物語</a>
+      <a href="#the-book">本</a>
+      <a href="#brands">ブランド</a>
+      <a href="#sabrocito"><span translate="no">Sabrocito</span></a>
+      <a href="#editions">版</a>
+      <a href="#buy">購入</a>
+      <a href="#contact">連絡先</a>
+    </nav>
+    <button type="button" class="btn-copy" data-copy-bio data-label="プレス用略歴をコピー">プレス用略歴をコピー</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="eyebrow">小説 &middot; 『<span translate="no">失われた純真</span>』サーガ 第一部</div>
+    <span class="badge">著者・創業者 &middot; 21歳以上対象のスピリッツ・コンテンツ</span>
+    <h1><span translate="no">失われた純真</span>：<br><em>契約</em></h1>
+    <div class="byline">著 <span translate="no">Tony Haber-Matos</span></div>
+    <p class="author-line">Cuba系アメリカ人の著者であり起業家。<span translate="no">Casa Santiago</span> LLCおよび<span translate="no">Qvivo Brands</span> Inc.の創業者。Miami在住。</p>
+    <div class="chips">
+      <span class="chip solid">Santiago de Cuba生まれ &middot; 1973</span>
+      <span class="chip line">Florida州Miami</span>
+      <span class="chip gold">創業者 + 著者</span>
+    </div>
+    <p class="logline">現代のHavana。3人の男子生徒は、盗まれた試験の答えを求めて霊能者に金を払う。だがその背後には、12年かけて築かれた仕組みがあった。助けを子どもたちを選別する制度へと変える仕組みだ。やがて彼らに突きつけられる問い――誰が助けを受けるに値するのか――は、さらに厳しい問いへと変わっていく。</p>
+    <div class="question">&ldquo;誰が決めるのか？&rdquo;</div>
+
+    <div class="cover" role="img" aria-label="失われた純真：契約、Tony Haber-Matos</span>著">
+      <div class="c-eyebrow">小説</div>
+      <div class="c-title"><span translate="no">失われた純真</span></div>
+      <div class="c-sub">契約</div>
+      <div class="c-author"><span translate="no">Tony Haber-Matos</span></div>
+    </div>
+
+    <div class="buy-row">
+      <a class="btn btn-amazon" href="https://www.amazon.com/dp/B0HHXVHXHS">Amazonで購入</a>
+      <a class="btn btn-gplay" href="https://play.google.com/store/books/details?id=z1gjEgAAQBAJ">Google Play ブックス</a>
+      <a class="btn btn-bn" href="https://www.barnesandnoble.com/s/lost%20innocences%20the%20pact">Barnes &amp; Noble</a>
+    </div>
+
+    <p class="whisper">&ldquo;ある物語は、何年もささやかれ続けて、ようやく書かれる。&rdquo;</p>
+    <p class="now"><b>執筆中</b> &mdash; 『<span translate="no">失われた純真</span>』第二部、進行中<br>
+    <b>準備中</b> &mdash; <span translate="no">Sabrocito</span> &middot; 2027年2月1日</p>
+  </div>
+</div>
+
+<section id="story" class="story" style="background:var(--surface)">
+  <div class="wrap">
+    <div class="two-col">
+      <div class="sticky-col">
+        <div class="kicker">01 &mdash; 物語</div>
+        <blockquote class="big-quote">&ldquo;De eso no se habla&rdquo; <em>―― そのことについては話さない。</em></blockquote>
+        <div class="gold-rule" style="margin-top:26px"></div>
+        <p class="muted" style="max-width:340px;margin-top:18px">Cubaの多くの家庭で聞かれる言葉。<span translate="no">Tony Haber-Matos</span>の作品では、それが問いになる。沈黙にはどんな代償があるのか。</p>
+        <button type="button" class="btn-copy" data-copy-bio data-label="プレス用略歴をコピー" style="margin-top:14px">プレス用略歴をコピー</button>
+      </div>
+      <div>
+        <p><strong>1973年にSantiago de Cubaで生まれた</strong><span translate="no">Tony Haber-Matos</span>は、ささやくことを学んだ家庭で育った。その家では、ある名前や歴史や真実は、声をひそめて語られた。語られるとすれば、の話だが。</p>
+        <p>信仰は心の安定を与えた。恐れは慎重さを教えた。そして沈黙は、時を経てその代償を明らかにした。記憶は薄れ、物語は狭まり、次の世代は、問う場所のない問いを受け継ぐ。</p>
+        <p>United States Navyでの勤務とFlorida International Universityでの学びは、別の規律を磨いた。注意力、忍耐力、そして物語を慰めのために曲げずに運ぶ責任だ。</p>
+        <p>彼の作品は、家族を支えてきたものへと立ち返る。回復力、信仰、受け継がれてきたもの、そして、正直に語られた物語は一種の遺産になり得るという信念。過去への記念碑ではなく、現在の言葉として。</p>
+        <div class="word-chips">
+          <div class="word-chip">信仰</div>
+          <div class="word-chip">回復力</div>
+          <div class="word-chip">伝統</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:64px">
+      <div class="kicker">02 &mdash; 人生の章</div>
+      <h2>SantiagoからMiamiへの道</h2>
+      <p class="lede muted">履歴書ではない。問いの連なりであり、ひとつひとつが次の創造へとつながっていく。</p>
+      <div class="two-col" style="margin-top:36px">
+        <div class="tl-card">
+          <div style="color:var(--terracotta);font-size:22px">&#10022;</div>
+          <h3>すべてのブランドは、誰かが忘れることを拒んだ物語から始まる。</h3>
+          <p>詩を載せたワインのラベルから、7年かけて復活させたリキュールまで、貫くものは忍耐だ。物語が本来の姿を見つけるのを待つこと。</p>
+          <div class="foot">7か国語で出版</div>
+        </div>
+        <ol class="tl">
+          <li>
+            <span class="dot"></span>
+            <div class="yr">1973</div>
+            <h3>Santiago de Cubaで生まれる</h3>
+            <p>ささやくことを学んだ家庭に生まれる。受け継がれてきたもの、信仰、回復力が、人生と作品を貫く軸となる。</p>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="yr">2009</div>
+            <h3>Coastal Select Wine &amp; Spirit</h3>
+            <p>地域セールス・マーケティング・マネージャーとなり、流通、小売、そして長く続くブランドを作る規律を学ぶ。</p>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="yr">FIU</div>
+            <h3>詩の授業が進路を変える</h3>
+            <p>Florida International University、Richard Blancoの詩の授業で、問いは実践となる。続いて生まれたのが、ラベルに詩を載せ、AR体験を備えたワイン、<span translate="no">Loco Por Ti</span>と<span translate="no">Crazy Love</span>だ。</p>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="yr">7年間</div>
+            <h3><span translate="no">Guayabita del Pinar</span>、復活</h3>
+            <p><span translate="no">Guayabita del Pinar</span>を復活させ、Cubaの名品を忍耐と愛情をもってよみがえらせる。</p>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="yr">創業者</div>
+            <h3><span translate="no">Qvivo Brands</span> + <span translate="no">Casa Santiago</span></h3>
+            <p><span translate="no">Qvivo Brands</span> Inc.と<span translate="no">Casa Santiago</span> LLCを創業。スピリッツ、出版、そして独自の視点を持つ物語のための家。</p>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="yr">2026年10月21日</div>
+            <h3><span translate="no">失われた純真：契約</span></h3>
+            <p>『<span translate="no">失われた純真</span>』第一部をOreate–<span translate="no">Casa Santiago</span> Pressから7か国語で出版する。</p>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="yr">2027年2月1日</div>
+            <h3><span translate="no">Sabrocito</span>、発売</h3>
+            <p><span translate="no">Sabrocito</span>がTotal Wine &amp; Moreに登場。8つの表情を持つウルトラプレミアム・アガベ・スピリッツ。</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="our-story" class="story">
+  <div class="wrap">
+    <div class="kicker">私たちの物語</div>
+    <h2>本の裏にある物語</h2>
+    <p class="lede">これは「助け」についての物語だ。そして、助けがもはや無償でなくなったとき、それが何を犠牲にするのかについての物語でもある。</p>
+    <p>Havana、現在。Colegio San Jerónimoで、3人の生徒――Pedro Martínez Pérez、Rafael、Juan――は、将来を決める大学入学試験に直面し、恐れから客となる。彼らは無免許の霊能者Eulogioに、試験の答えとして一人500ドルを払う。Pedroは母親の盗んだ宝石で自分の分を払い、家の家政婦Yadiraに罪を着せる。</p>
+    <p>Eulogioの背後には、さらに古く冷たいものがある。Northstar Continuity Review――12年かけて築かれた財団のネットワークで、子どもたちを「信頼できる」「不確か」「危険」と分類し、あらゆる助けを借金、紹介、沈黙、署名、他人の名前に変えていく。ジャーナリストのLucía Valdésがその糸を手繰り始める。少年たちの罪は本物であり、小説はそれを決して正当化しない。小説の問いは、助けそのものが支配の道具となったとき、社会はどうなるのか。そして、誰が助けを受けるに値するかを決めるのか、ということだ。</p>
+    <blockquote>
+      &ldquo;7号室で、機械から二つの答えを提示され、Pedroは三つ目を打ち込む。「自分がしたことの責任は受け入れる。あなたがそれで何をしたかの責任は拒否する。」&rdquo;
+      <footer>&mdash; 『<span translate="no">失われた純真：契約</span>』より</footer>
+    </blockquote>
+    <p>小説は二部構成で語られる。第一話「試験」（第1～9章）と第二話「ネットワーク」（第10～39章）。テーマは信仰、恐れ、沈黙の代償。助けと所有、同意、そして感謝は借金ではないという真実だ。</p>
+  </div>
+</section>
+
+<section id="the-book" class="dark">
+  <div class="wrap">
+    <div class="kicker">03 &mdash; 著者</div>
+    <h2>沈黙の代償についての小説</h2>
+    <p class="lede">『<span translate="no">失われた純真</span>』サーガ第一部。第二部は執筆中。</p>
+
+    <div class="book-panel">
+      <div class="book-cover">
+        <div class="bc-top"><span>Oreate &middot; <span translate="no">Casa Santiago</span> Press</span><span>第一部</span></div>
+        <div>
+          <div class="bc-title">失われた<br>純真</div>
+          <div class="bc-sub">契約</div>
+        </div>
+        <div class="bc-foot"><span translate="no">Tony Haber-Matos</span> &middot; 400ページ &middot; 39章</div>
+      </div>
+      <div class="book-body">
+        <p class="pub">2026年10月21日刊行</p>
+        <h3>3人の生徒。ひとつの取引。その両方を使いこなす仕組み。</h3>
+        <p>現代のHavana、Colegio San Jerónimoで、Pedro、Rafael、JuanはそれぞれEulogioに試験の答えとして500ドルを払う。Pedroは母親の盗んだ宝石で払う。盗みが発覚すると、家政婦のYadiraが責められる。</p>
+        <p>3人の少年が真実を探すうちに、Northstar Continuity Reviewが明らかになる。子どもたちを分類し、助けを服従へと変える財団の仕組みだ。</p>
+        <blockquote>&ldquo;自分がしたことの責任は受け入れる。あなたがそれで何をしたかの責任は拒否する。&rdquo;</blockquote>
+        <p class="ed-label">7つの版</p>
+        <div class="ed-chips">
+          <span>英語</span>
+          <span>スペイン語 &mdash; Inocencia Perdida: El Pacto</span>
+          <span>イタリア語</span>
+          <span>フランス語</span>
+          <span>ドイツ語</span>
+          <span>日本語</span>
+          <span>ポルトガル語</span>
+        </div>
+        <div class="stats">
+          <span><b>400ページ</b> &middot; 39章</span>
+          <span><b>出版社</b> &middot; Oreate–<span translate="no">Casa Santiago</span> Press</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>舞台</h3>
+        <p>現代のHavana、Colegio San Jerónimo。ごく普通の都市部の昼間学校。</p>
+      </div>
+      <div class="card">
+        <h3>登場人物</h3>
+        <p>Pedro Martínez Pérez、Rafael、Juanの3人の生徒。霊能者のEulogio。家政婦のYadira。ジャーナリストのLucía Valdés。</p>
+      </div>
+      <div class="card">
+        <h3>ネットワーク</h3>
+        <p>Northstar Continuity Review――子どもたちを分類し、助けを服従へと変える財団の仕組み。</p>
+      </div>
+      <div class="card">
+        <h3>問い</h3>
+        <p class="big">&ldquo;誰が決めるのか？&rdquo;</p>
+        <p>本書の最後の問い。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="author" class="story">
+  <div class="wrap">
+    <div class="kicker">著者について</div>
+    <h2><span translate="no">Tony Haber-Matos</span></h2>
+    <figure style="margin:0 0 18px"><img src="author-photo.jpg" alt="Tony Haber-Matos" style="max-width:340px;width:100%;height:auto;border-radius:12px;display:block"></figure>
+    <p class="lede"><span translate="no">Tony Haber-Matos</span>はMiamiを拠点とする著者であり起業家で、<span translate="no">Casa Santiago</span> LLCおよび<span translate="no">Qvivo Brands</span> Inc.の創業者であり、退役軍人が経営する企業のリーダーである。</p>
+    <p>彼の小説は、信仰、家族、記憶に根ざしている。家族を引き裂いたCuba亡命の経験が形作ったものだ。ささやくことを学んだ家族、祖母の祈り、父の沈黙、置き去りにした島からの母の歌。</p>
+    <p>世界が初めて彼の文章を読んだのはワインのラベルだった。FIUでのRichard Blancoの詩の授業で、彼のワインブランド、<span translate="no">Loco Por Ti</span>と<span translate="no">Crazy Love</span>が生まれた。詩はスペイン語と英語でラベルに印刷された。その後、彼は長い記憶を持つCubaのスピリッツ・ブランド、<span translate="no">Guayabita del Pinar</span>を復活させた。</p>
+    <p>現在、サーガの第二部を執筆中で、2027年2月にTotal Wineで発売されるアガベ・スピリッツ、<span translate="no">Sabrocito</span>の準備を進めている。</p>
+  </div>
+</section>
+
+<section id="brands">
+  <div class="wrap">
+    <div class="kicker">04 &mdash; 起業家</div>
+    <h2>意図をもって築かれたブランドの家</h2>
+    <p class="lede muted">それぞれの名前が、場所、記憶、あるいは問いを宿している。合わせて、根のあるポートフォリオとなる。</p>
+    <div class="brand-grid">
+      <button type="button" class="brand-card">
+        <span class="b-tag">家</span>
+        <h3><span translate="no">Casa Santiago</span> LLC</h3>
+        <p>出版、スピリッツ、ブランドの物語を語るための創業の家。</p>
+      </button>
+      <button type="button" class="brand-card">
+        <span class="b-tag">会社</span>
+        <h3><span translate="no">Qvivo Brands</span> Inc.</h3>
+        <p>文化、職人技、そして人々の記憶に残る製品を中心に築かれたポートフォリオ。</p>
+      </button>
+      <button type="button" class="brand-card">
+        <span class="b-tag">出版</span>
+        <h3><span translate="no">OreatePress</span></h3>
+        <p>Oreate–<span translate="no">Casa Santiago</span> Press：ゆっくり読まれ、大切に保管されるよう作られた本。</p>
+      </button>
+      <button type="button" class="brand-card active">
+        <span class="b-tag">ウルトラプレミアム・アガベ</span>
+        <h3><span translate="no">Sabrocito</span></h3>
+        <p>8つの表情：ブランコ、レポサド、ココナッツ、パッションフルーツ、マンゴー、ストロベリー、ライチ、スパイシー・タマリンド。</p>
+      </button>
+      <button type="button" class="brand-card">
+        <span class="b-tag">復活した名品</span>
+        <h3><span translate="no">Guayabita del Pinar</span></h3>
+        <p>7年かけて復活させたCubaのグアバ・リキュール。</p>
+      </button>
+      <button type="button" class="brand-card">
+        <span class="b-tag">ワインと詩</span>
+        <h3><span translate="no">Loco Por Ti</span></h3>
+        <p>詩から生まれたワイン。ラベルに詩、グラスに想い。</p>
+      </button>
+      <button type="button" class="brand-card">
+        <span class="b-tag">ワインと詩</span>
+        <h3><span translate="no">Crazy Love</span></h3>
+        <p><span translate="no">Loco Por Ti</span>の伴侶。ロマンス、言葉、そしてAR体験。</p>
+      </button>
+      <button type="button" class="brand-card">
+        <span class="b-tag">ブランド</span>
+        <h3><span translate="no">Santero</span></h3>
+        <p>信仰、儀式、文化的記憶に根ざしたブランド。</p>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section id="philosophy">
+  <div class="wrap">
+    <div class="kicker">05 &mdash; 哲学</div>
+    <h2>長く残る作品を作るための5つの原則</h2>
+    <div class="phil-grid">
+      <div class="phil">
+        <div class="num">01</div>
+        <h3>あなたにしか語れない物語を書く</h3>
+        <p>他の誰かが同じように書けるなら、それはまだあなたのものではない。</p>
+      </div>
+      <div class="phil">
+        <div class="num">02</div>
+        <h3>あらすじではなく、問いから始める</h3>
+        <p>良い問いは、計画が尽きた後もずっと、物語を正直に保つ。</p>
+      </div>
+      <div class="phil">
+        <div class="num">03</div>
+        <h3>登場人物に失敗させる</h3>
+        <p>失敗こそ、人物が証明される場所であり、読者が信頼し始める場所だ。</p>
+      </div>
+      <div class="phil">
+        <div class="num">04</div>
+        <h3>許可を待たない</h3>
+        <p>家を建てる。本を出版する。最初の一杯を注ぐ。</p>
+      </div>
+      <div class="phil">
+        <div class="num">05</div>
+        <h3>正直に終わる</h3>
+        <p>きれいな結末は簡単だ。本当の結末は、心に残るものだ。</p>
+      </div>
+    </div>
+    <div class="fund">
+      <div>
+        <div class="eyebrow" style="color:var(--gold)">取引ではなく、運動</div>
+        <h3>何も求めない奨学金のための基金。</h3>
+        <p>助けに条件がついてはならない。これからの仕事は、若者をまず信頼し、彼ら自身の物語がどうなるかを彼らに決めさせる支援を作ることだ。</p>
+      </div>
+      <div class="give">
+        <b>縛りなく与える。</b>
+        <span>教育、尊厳、可能性。</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sabrocito">
+  <div class="wrap">
+    <div class="sab-panel">
+      <div class="sab-left">
+        <div class="eyebrow"><span translate="no">Sabrocito</span> &middot; スピリッツ</div>
+        <h3><span translate="no">Sabrocito</span>は、<br>グラスに注がれる前から、<br>ひとつの気分である。</h3>
+        <p>食卓に長く留まる人々のために作られたウルトラプレミアム・アガベ・スピリッツ。8つの表情、ひとつの紛れもない個性。明るく、温かく、分かち合うために作られた。</p>
+        <div class="flav-chips">
+          <span>ブランコ</span>
+          <span>レポサド</span>
+          <span>ココナッツ</span>
+          <span>パッションフルーツ</span>
+          <span>マンゴー</span>
+          <span>ストロベリー</span>
+          <span>ライチ</span>
+          <span>スパイシー・タマリンド</span>
+        </div>
+        <p class="launch">2027年2月1日発売 &middot; Total Wine &amp; More</p>
+        <p class="launch"><a href="https://sabrocitous.com" target="_blank" rel="noopener">sabrocitous.comを見る</a> &middot; <a href="https://app.sabrocitous.com" target="_blank" rel="noopener"><span translate="no">Sabrocito</span>アプリを試す</a></p>
+      </div>
+      <div class="sab-right">
+        <div>
+          <p class="q">&ldquo;<span translate="no">Sabrocito</span>は味ではない。感覚だ。&rdquo;</p>
+          <p class="tag" style="margin-top:16px">8つの表情 &middot; ひとつの家</p>
+        </div>
+        <p class="fine">責任を持ってお楽しみください。合法的に販売されている地域の認可小売店でのみ入手可能です。21歳以上の方のみ。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="editions">
+  <div class="wrap">
+    <div class="kicker">版</div>
+    <h2>7つの版、7つの言語</h2>
+    <p class="lede">『<span translate="no">失われた純真：契約</span>』は7か国語で読むことができます。</p>
+    <ul class="editions">
+      <li><b>英語</b><span>ISBN 9798170331130</span></li>
+      <li><b>スペイン語</b><span>Inocencia Perdida: El Pacto &middot; ISBN 9798170688173</span></li>
+      <li><b>フランス語</b><span>フランス語版</span></li>
+      <li><b>イタリア語</b><span>イタリア語版</span></li>
+      <li><b>ドイツ語</b><span>ドイツ語版</span></li>
+      <li><b>ポルトガル語</b><span>ポルトガル語版</span></li>
+      <li><b>日本語</b><span>日本語版</span></li>
+    </ul>
+    <p class="isbn">デジタル版はメールでのお問い合わせによりご用意できます。 <a href="mailto:tony@qvivobrands.com">tony@qvivobrands.com</a>までご連絡ください。公開の無料ダウンロードはありません。</p>
+  </div>
+</section>
+
+<section id="details">
+  <div class="wrap">
+    <div class="kicker">本の詳細</div>
+    <h2>ひと目でわかる</h2>
+    <div class="grid">
+      <div class="card"><h3>章</h3><p class="big">39</p><p>第一話「試験」（第1～9章）。第二話「ネットワーク」（第10～39章）。</p></div>
+      <div class="card"><h3>ページ数</h3><p class="big">400</p><p>長編小説。</p></div>
+      <div class="card"><h3>刊行日</h3><p class="big">2026年10月21日</p><p>Oreate–<span translate="no">Casa Santiago</span> Press刊。</p></div>
+      <div class="card"><h3>言語</h3><p class="big">7</p><p>英語、スペイン語、フランス語、イタリア語、ドイツ語、ポルトガル語、日本語。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="buy" class="buy">
+  <div class="wrap">
+    <div class="kicker">本を買う</div>
+    <h2>購入方法</h2>
+    <table class="price-table">
+      <thead>
+        <tr><th>形式</th><th>価格</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Kindle（Kindle Unlimited）</td><td class="price">$7.99</td></tr>
+        <tr><td>ハードカバー</td><td class="price">$32.99</td></tr>
+        <tr><td>ペーパーバック</td><td class="price">$19.99</td></tr>
+        <tr><td>EPUB</td><td class="price">$7.99</td></tr>
+        <tr><td>Barnes &amp; Noble eBook</td><td class="price">$8.99</td></tr>
+      </tbody>
+    </table>
+    <div class="buy-row">
+      <a class="btn btn-amazon" href="https://www.amazon.com/dp/B0HHXVHXHS">Amazonで購入</a>
+      <a class="btn btn-gplay" href="https://play.google.com/store/books/details?id=z1gjEgAAQBAJ">Google Play ブックス</a>
+      <a class="btn btn-bn" href="https://www.barnesandnoble.com/s/lost%20innocences%20the%20pact">Barnes &amp; Noble</a>
+    </div>
+    <p class="note">Walmartでも購入できます。Barnes &amp; Noble eBook EAN 2940184829623。デジタル版はメールでのお問い合わせでもご用意できます。 <a href="mailto:tony@qvivobrands.com">tony@qvivobrands.com</a>までご連絡ください。</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="kicker">連絡先</div>
+    <h2>お問い合わせ</h2>
+    <address>
+      <b><span translate="no">Casa Santiago</span> LLC</b><br>
+      6710 Main Street Suite 238<br>
+      Miami Lakes, FL 33014<br>
+      +1 (305) 497-8620<br>
+      <a href="mailto:tony@qvivobrands.com">tony@qvivobrands.com</a>
+    </address>
+    <div class="press">Oreate–<span translate="no">Casa Santiago</span> Press</div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="fb-title">SABROCITO <span>&bull;</span> <span translate="no">Casa Santiago</span></div>
+        <p>著者、創業者、そしてかつてささやかれていた物語の守り手。Miamiで書かれ、Santiago de Cubaに根ざす。</p>
+        <button type="button" class="btn-gold" data-copy-bio data-label="プレス用略歴をコピー">プレス用略歴をコピー</button>
+      </div>
+      <nav aria-label="フォロー">
+        <div class="nav-label">フォロー</div>
+        <ul>
+          <li><a href="https://tonyhaberbooks.wordpress.com" target="_blank" rel="noopener">tonyhaberbooks.wordpress.com</a></li>
+          <li><a href="https://www.tiktok.com/@tonyhaber1" target="_blank" rel="noopener">TikTok &middot; @tonyhaber1</a></li>
+          <li><a href="https://tonyhabermatos.github.io" target="_blank" rel="noopener">tonyhabermatos.github.io</a></li>
+          <li><a href="https://www.instagram.com/tonyhaberofficial" target="_blank" rel="noopener">Instagram &middot; @tonyhaberofficial</a></li>
+          <li><a href="https://www.linkedin.com/in/tony-haber/" target="_blank" rel="noopener">LinkedIn &middot; /in/tony-haber/</a></li>
+          <li><a href="https://www.youtube.com/@tonyhabermatos" target="_blank" rel="noopener">YouTube &middot; @tonyhabermatos</a></li>
+          <li><a href="https://sabrocitous.com" target="_blank" rel="noopener">sabrocitous.com</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="foot-bottom">
+      <span>『<span translate="no">失われた純真：契約</span>』 &copy; <span translate="no">Tony Haber-Matos</span> &middot; Oreate–<span translate="no">Casa Santiago</span> Press</span>
+      <span>責任を持ってお楽しみください。<span translate="no">Sabrocito</span>はウルトラプレミアム・アガベ・スピリッツです。合法的に販売されている地域の認可小売店でのみ入手可能です。</span>
+      <span>&copy; <span translate="no">Casa Santiago</span> LLC &middot; <span translate="no">Qvivo Brands</span> Inc. &middot; <span translate="no">OreatePress</span></span>
+    </div>
+  </div>
+</footer>
+
+<pre id="press-bio" hidden>TONY HABER-MATOS — プレス用略歴
+
+<span translate="no">Tony Haber-Matos</span>はCuba系アメリカ人の著者であり起業家で、<span translate="no">Casa Santiago</span> LLCおよび<span translate="no">Qvivo Brands</span> Inc.の創業者である。Florida州Miamiに住み、働いている。
+
+1973年にSantiago de Cubaで生まれた<span translate="no">Tony Haber-Matos</span>は、ささやくことを学んだ家庭で育った。彼の作品は、信仰、恐れ、回復力、受け継がれてきたもの、そして沈黙の代償を問う。United States Navyでの勤務とFlorida International Universityでの学びの後、ワインとスピリッツ、出版、ブランド創出の分野でキャリアを築いた。
+
+彼は『<span translate="no">失われた純真：契約</span>』の著者であり、2026年10月21日にOreate–<span translate="no">Casa Santiago</span> Pressから7か国語で出版された。この小説は、HavanaのColegio San Jerónimoに通う3人の生徒を描く。彼らが試験の答えを買おうとしたことで、助けを服従へと変える仕組みが明らかになる。
+
+<span translate="no">Tony Haber-Matos</span>はまた、ウルトラプレミアム・アガベ・スピリッツ「<span translate="no">Sabrocito</span>」の創業者でもあり、2027年2月1日にTotal Wine &amp; Moreで発売される。責任を持ってお楽しみください。<span translate="no">Sabrocito</span>は合法的に販売されている地域の認可小売店でのみ入手可能です。
+
+詳しくは：sabrocitous.com</pre>
+
+<script>
+(function(){
+  var bioEl=document.getElementById('press-bio');
+  function copyBio(btn){
+    var text=bioEl?bioEl.textContent:'';
+    function done(ok){
+      if(!btn) return;
+      var orig=btn.getAttribute('data-label')||'プレス用略歴をコピー';
+      btn.textContent=ok?'略歴をコピーしました':'コピーできませんでした';
+      setTimeout(function(){btn.textContent=orig;},3200);
+    }
+    function fallback(){
+      var area=document.createElement('textarea');
+      area.value=text; area.setAttribute('readonly','');
+      area.style.position='fixed'; area.style.opacity='0';
+      document.body.appendChild(area); area.select();
+      var ok=false; try{ok=document.execCommand('copy');}catch(e){ok=false;}
+      document.body.removeChild(area); done(ok);
+    }
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){fallback();});
+    }else{fallback();}
+  }
+  var btns=document.querySelectorAll('[data-copy-bio]');
+  for(var i=0;i<btns.length;i++){
+    btns[i].addEventListener('click',function(){copyBio(this);});
+  }
+  var cards=document.querySelectorAll('.brand-card');
+  for(var j=0;j<cards.length;j++){
+    cards[j].addEventListener('click',function(){
+      for(var k=0;k<cards.length;k++){cards[k].classList.remove('active');}
+      this.classList.add('active');
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
